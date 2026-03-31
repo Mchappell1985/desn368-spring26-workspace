@@ -55,11 +55,10 @@ As you complete each tool setup, **come back and update the "My Toolkit" section
 
 ## 🛠️ **My Toolkit**
 *Update these links as you complete each tool setup:*
-- **GitHub Profile:**  ⏳
-- **Workspace Repository:** [Add your repository URL here] ⏳
-- **Figma:** [Add your Figma username here] ⏳
-- **CodePen:** [Add your CodePen profile URL here] ⏳
-- **LiveCode:** [Add your LiveCode profile here] ⏳
+- **GitHub Profile:**  Mchappell1985
+- **Workspace Repository:** [(https://github.com/Mchappell1985/desn368-spring26-workspace/actions)] 
+- **Figma:** [mchappell]
+- **CodePen:** [(https://codepen.io/Mchappell1985)] 
 - **GitHub Student Pack:** [Confirm approval status here] ⏳
 
 ### **How to Update Your Toolkit:**
