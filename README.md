@@ -59,7 +59,7 @@ As you complete each tool setup, **come back and update the "My Toolkit" section
 - **Workspace Repository:** [(https://github.com/Mchappell1985/desn368-spring26-workspace/actions)] 
 - **Figma:** [mchappell]
 - **CodePen:** [(https://codepen.io/Mchappell1985)] 
-- **GitHub Student Pack:** [Confirm approval status here] ⏳
+- **GitHub Student Pack:** [pending]
 
 ### **How to Update Your Toolkit:**
 1. **Click the pencil icon** (✏️) at the top right of this README
