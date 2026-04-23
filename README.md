@@ -6,9 +6,13 @@ This repo holds all my projects, exercises, and experiments from DESN 368.
 
 ## 👤 **Student Information**
 **Student Email:** mchappell1@ewu.edu
+
 **Instructor:** Professor Travis Masingale
+
 **Instructor Email:** tmasingale@ewu.edu
+
 **Course:** DESN368 CODE + DESIGN 1
+
 **Quarter:** Spring 2026  
 
 ---
