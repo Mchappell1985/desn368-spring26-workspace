@@ -5,8 +5,9 @@ I am a VCD (Visual Communication Design) student at EWU who enjoy's storytelling
 This repo holds all my projects, exercises, and experiments from DESN 368.
 
 ## 👤 **Student Information**
+**Student Email:** mchappell1@ewu.edu
 **Instructor:** Professor Travis Masingale
-**Email:** tmasingale@ewu.edu
+**Instructor Email:** tmasingale@ewu.edu
 **Course:** DESN368 CODE + DESIGN 1
 **Quarter:** Spring 2026  
 
