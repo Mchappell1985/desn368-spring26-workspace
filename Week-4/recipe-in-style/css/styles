@@ -1,7 +1,7 @@
 /* General text styling */
 body {
     font-family: Arial, sans-serif;
-    color: #333;
+    color: #3b2f2f; /* soft dark brown */
     line-height: 1.6;
 }
 
@@ -10,12 +10,15 @@ main {
     max-width: 800px;
     margin: 0 auto;
     padding: 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
 }
 
 /* Header styling */
 header h1 {
     text-align: center;
     font-size: 2.5rem;
+    color: #4e2a1e; /* chocolate tone */
 }
 
 /* Section spacing */
@@ -25,17 +28,26 @@ section {
 
 /* Ingredient list */
 .ingredients-list {
-    background-color: #fafafa;
+    background-color: #fdf6f2;
     padding: 15px;
     list-style-type: square;
+    border-radius: 5px;
 }
 
 /* Links */
 a {
-    color: #3498db;
+    color: #b85c38; /* warm caramel */
     text-decoration: none;
 }
 
 a:hover {
-    color: #e74c3c;
+    color: #8b3a2e;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 0.9rem;
+    color: #6b4f4f;
 }
