@@ -23,7 +23,7 @@ This repo holds all my projects, exercises, and experiments from DESN 368.
 - **Workspace Repository:** [(https://github.com/Mchappell1985/desn368-spring26-workspace/actions)] 
 - **Figma:** [mchappell]
 - **CodePen:** [(https://codepen.io/Mchappell1985)] 
-- **GitHub Student Pack:** [pending]
+- **GitHub Student Pack:** [Approved]
 
 ---
 
