@@ -1,24 +1,37 @@
+/* Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@400;600&family=Open+Sans&display=swap');
+
 /* General text styling */
 body {
-    font-family: Arial, sans-serif;
-    color: #3b2f2f; /* soft dark brown */
-    line-height: 1.6;
+    font-family: 'Open Sans', sans-serif;
+    color: #3b2f2f;
+    line-height: 1.7;
 }
 
 /* Center content */
 main {
     max-width: 800px;
-    margin: 0 auto;
-    padding: 20px;
+    margin: 30px auto;
+    padding: 25px;
     background-color: #ffffff;
-    border-radius: 10px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
 }
 
 /* Header styling */
 header h1 {
     text-align: center;
-    font-size: 2.5rem;
-    color: #4e2a1e; /* chocolate tone */
+    font-size: 2.8rem;
+    font-family: 'Fredoka', sans-serif;
+    color: #4e2a1e;
+    letter-spacing: 1px;
+}
+
+/* Section headings */
+h2 {
+    font-family: 'Fredoka', sans-serif;
+    color: #6b3e2e;
+    margin-bottom: 10px;
 }
 
 /* Section spacing */
@@ -28,20 +41,27 @@ section {
 
 /* Ingredient list */
 .ingredients-list {
-    background-color: #fdf6f2;
+    background-color: #fff8f2;
     padding: 15px;
     list-style-type: square;
-    border-radius: 5px;
+    border-radius: 8px;
+}
+
+/* Instructions list */
+ol li {
+    margin-bottom: 8px;
 }
 
 /* Links */
 a {
-    color: #b85c38; /* warm caramel */
+    color: #e65100;
     text-decoration: none;
+    font-weight: 600;
 }
 
 a:hover {
-    color: #8b3a2e;
+    color: #bf360c;
+    text-decoration: underline;
 }
 
 /* Footer */
