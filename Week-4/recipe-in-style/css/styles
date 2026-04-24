@@ -1,0 +1,41 @@
+/* General text styling */
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Center content */
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Header styling */
+header h1 {
+    text-align: center;
+    font-size: 2.5rem;
+}
+
+/* Section spacing */
+section {
+    margin-bottom: 30px;
+}
+
+/* Ingredient list */
+.ingredients-list {
+    background-color: #fafafa;
+    padding: 15px;
+    list-style-type: square;
+}
+
+/* Links */
+a {
+    color: #3498db;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #e74c3c;
+}
