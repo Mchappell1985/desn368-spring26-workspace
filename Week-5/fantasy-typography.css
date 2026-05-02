@@ -1,0 +1,69 @@
+body { font-family: "Georgia", serif;
+       background-color: #1a1a1a;
+       color: #f4e9d8;
+       margin: 0;
+       padding: 0; }
+
+
+
+.book-header { text-align: center;
+               padding: 35px;
+               background-color:#2e2b24; }
+
+
+
+.genre-label { text-transform: uppercase;
+               letter-spacing:5px;
+               font-size: 14px;
+               color: #c2a96a; }
+
+  
+.book-title { font-family: "Rouge Script", cursive;
+              font-weight: 100px;
+              font-style: normal;
+              margin: 10px 0; }
+
+
+.book-author { font-style: italic;
+               font-size: 18px;
+               margin-bottom: 20px; }
+
+
+.chapter-number { font-size: 15px;
+                  letter-spacing: 1.5px; }
+
+
+.chapter-title {font-size: 28px;
+                margin: center;
+}
+
+.book-meta { font-size: 15px;
+             color: #d6c6a5; }
+
+
+.book-date { font-size: 15px;
+             font-style: italic; }
+
+
+.book-excerpt { font-family: "Jim Nightshade", cursive;
+                font-weight: 200;
+                font-style: normal;
+                padding: 25px;
+                line-height: 1.5; }
+
+.book-excerpt p { margin-bottom: 20px; }
+
+
+.typography-analysis { background-color: #2e2b24;
+                       padding: 25px;
+                       margin: 20px; }
+
+
+.typography-analysis h2 { text-align: center;
+                          font-size: 24px; }
+
+
+.typography-analysis p { font-size: 10px;
+                         margin-bottom: 10px;
+
+}
