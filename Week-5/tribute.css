@@ -6,7 +6,8 @@ body { font-family: 'Inter', Arial, sans-serif;
         color: #2e2e2e;
         margin: 0;
         padding: 20px; 
-        line-height: 1.6; }
+        line-height: 1.6; 
+        font-size: 30px; }
 
 /* Title Style */
 
