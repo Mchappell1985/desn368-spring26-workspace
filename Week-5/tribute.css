@@ -4,6 +4,7 @@
 body { font-family: 'Inter', Arial, sans-serif;
         background-color: #A4CED6;
         color: #2e2e2e;
+        width: 100%;
         margin: 0;
         padding: 20px; 
         line-height: 1.6; 
