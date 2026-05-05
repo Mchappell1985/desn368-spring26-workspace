@@ -2,12 +2,12 @@
 
 /* Background Base */
 body { font-family: 'Inter', Arial, sans-serif;
-        background-color: #A4CED6;
+        background-color: #89aeb4;
         color: #2e2e2e;
         margin: 0;
         padding: 20px; 
         line-height: 1.6; 
-        font-size: 16px; }
+        font-size: 30px;}
 
 /* Title Style */
 
@@ -21,7 +21,7 @@ h1 { font-family: 'Poppins', sans-serif;
 figure { margin: 20px auto;
     padding: 10px;
     max-width: 500px;
-    border: 3px solid #7EBDCA;
+    border: 3px solid #6da3ab;
     background-color: white; 
     text-align: center;}
 
@@ -37,13 +37,13 @@ main { max-width: 700px;
 margin: 0 auto; }
 
 
-section { background-color: #F1F8F9;
+section { background-color: #d8e1e3;
 margin: 30px 0;
 padding: 20px;
 border-radius: 15px;}
 
 
-h2 { background-color:#7EBDCA;
+h2 { background-color:#6da3ab;
     color: white;
     padding: 8px;
     text-align: center;
