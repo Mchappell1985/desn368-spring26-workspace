@@ -16,7 +16,8 @@ figure { margin: 20px auto;
     padding: 10px;
     max-width: 500px;
     border: 3px solid #6da3ab;
-    background-color: white; }
+    background-color: white; 
+    text-align: center;}
 
 /* image settings */
 
