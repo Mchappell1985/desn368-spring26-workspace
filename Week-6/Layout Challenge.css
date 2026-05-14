@@ -1,0 +1,90 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #ffd0b0;
+  color: #333;
+  margin: 0;
+  font: 1.2em/1.6 sans-serif;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+  border: 1px solid #000;
+}
+
+.logo {
+  font-size: 350%;
+  font-weight: bold;
+  padding: 50px 20px;
+  margin: 0 auto;
+  max-width: 980px;
+  text-align: center;
+}
+
+nav {
+  background-color: #783204;
+  padding: 0.5em;
+  position: sticky;
+  top: 0;
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  padding: 0.5em 1em;
+}
+
+/* Main box */
+
+main { display: flex;
+gap: 20px;
+max-width: 980px;
+margin: 0 auto;
+padding: 20px }
+
+article { flex: 3;}
+aside { flex: 1; }
+
+/* WrapIMG/Feature - TRBL */
+.feature { width: 200px;
+float: left;
+margin: 0 20px 20px 0; }
+
+/* images */
+
+.photos {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0;
+  gap: 5px;
+  list-style: none;
+  padding: 0;
+}
+
+.photos li { width: 50%; }
+
+/* I am gonna be so honest I cannot find any images that were 400px by 400px, so I just Searched how to resize them in CSS (google was my source) so that they fit. You can let me know if it's not allowed, thank you. */
+
+.photos img {
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+}
+
+/* Resize */
+
+@media (max-width: 768px) {
+  main { flex-direction: column; }
+}

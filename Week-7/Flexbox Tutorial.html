@@ -1,0 +1,186 @@
+<body>
+  <header>
+    <h1>Responsive Web Design</h1>
+    <p>Building websites that work on any device</p>
+  </header>
+
+  <main class="container">
+    <nav class="sidebar">
+      <h2>Contents</h2>
+      <ul>
+        <li><a href="#intro">Introduction</a></li>
+        <li><a href="#principles">Core Principles</a></li>
+        <li><a href="#layouts">Flexible Layouts</a></li>
+        <li><a href="#images">Responsive Images</a></li>
+        <li><a href="#media-queries">Media Queries</a></li>
+        <li><a href="#patterns">Common Patterns</a></li>
+      </ul>
+    </nav>
+
+    <div class="content">
+      <section id="intro">
+
+        <h2>Introduction to Responsive Design</h2>
+        <div class="decodiv" id="decodiv1">
+          <img src="https://www.svgrepo.com/show/166179/responsive-design-symbol.svg" alt="A vector image of an iphone next to a desktop">
+        </div>
+
+        <p>Responsive web design is an approach to web development that creates dynamic changes to the
+          appearance of a website, depending on the screen size and orientation of the device being used to view
+          it.</p>
+        <p>Rather than designing separate websites for different devices, responsive design uses
+          flexible layouts, images, and cascading style sheet media queries to adapt content to any screen.</p>
+        <p>This approach has become essential as users access websites from smartphones, tablets,
+          laptops, and desktop computers with varying screen sizes.</p>
+      </section>
+
+      <section id="principles">
+
+        <h2>Core Principles</h2>
+
+        <div class="decodiv" id="decodiv2">
+          <img src="https://www.svgrepo.com/show/498064/grid-edit.svg" alt="A vector image of a grid with a pen icon">
+        </div>
+
+        <p>Responsive web design is built on three fundamental principles:</p>
+        <ul>
+          <li><strong>Fluid Grids:</strong> Using relative units like percentages instead of fixed
+            pixels allows layouts to adapt proportionally to different screen sizes.</li>
+          <li><strong>Flexible Images:</strong> Images and media should scale within their containing
+            elements to prevent overflow and maintain layout integrity.</li>
+          <li><strong>Media Queries:</strong> CSS media queries allow you to apply different styles
+            based on device characteristics like screen width, height, and orientation.</li>
+        </ul>
+        <p>Together, these principles enable a single codebase to provide optimal viewing experiences
+          across all devices.</p>
+      </section>
+
+      <section id="layouts">
+        <h2>Flexible Layouts</h2>
+
+        <div class="decodiv" id="decodiv3">
+          <img src="https://www.svgrepo.com/show/511320/alignment-bottom-856.svg" alt="A vector image of two aligned boxes">
+        </div>
+
+        <p>Creating flexible layouts is the foundation of responsive design. Modern CSS provides
+          powerful tools for building adaptable layouts:</p>
+        <ul>
+          <li><strong>Flexbox:</strong> One-dimensional layouts that can easily reorganize content
+            horizontally or vertically.</li>
+          <li><strong>CSS Grid:</strong> Two-dimensional layouts perfect for complex page
+            structures.</li>
+          <li><strong>Relative Units:</strong> Using em, rem, vh, vw, and percentages instead of fixed
+            pixel values.</li>
+          <li><strong>Container Queries:</strong> Newer technique allowing components to respond to
+            their container size rather than viewport.</li>
+        </ul>
+        <p>The key is designing layouts that can gracefully adapt as screen space increases or
+          decreases.</p>
+      </section>
+
+      <section id="images">
+
+        <h2>Responsive Images</h2>
+
+        <div class="decodiv" id="decodiv4">
+          <img src="https://www.svgrepo.com/show/532579/image-square-check.svg" alt="A vector image of an image icon with a checkmark in the corner">
+        </div>
+
+        <p>Images are often the largest assets on web pages, making them critical to optimize for
+          different devices and screen sizes.</p>
+        <ul>
+          <li><strong>Srcset Attribute:</strong> Allows browsers to choose appropriate image resolution
+            based on device pixel density and viewport size.</li>
+          <li><strong>Picture Element:</strong> Provides full control over which image source loads
+            based on media queries.</li>
+          <li><strong>Image Formats:</strong> Modern formats like WebP and AVIF offer better compression
+            than traditional JPEG and PNG.</li>
+          <li><strong>Lazy Loading:</strong> Defer loading of off-screen images until needed to improve
+            initial page load performance.</li>
+        </ul>
+        <p>Proper image optimization can dramatically improve page load times, especially on mobile
+          networks.</p>
+      </section>
+
+      <section id="media-queries">
+        <h2>Media Queries</h2>
+        <div class="decodiv" id="decodiv5">
+          <img src="https://www.svgrepo.com/show/449472/coding.svg" alt="A vector image of a desktop tab with code brackets inside">
+        </div>
+
+        <p>Media queries are the cornerstone of responsive design, allowing you to apply CSS rules based
+          on device characteristics.</p>
+        <p><strong>Common Breakpoints:</strong></p>
+        <ul>
+          <li>Mobile: 0-768px</li>
+          <li>Tablet: 768px-1024px</li>
+          <li>Desktop: 1024px and above</li>
+        </ul>
+        <p>However, breakpoints should be determined by your content and design needs, not just standard
+          device sizes. Let your content guide where breakpoints are needed.</p>
+        <p><strong>Mobile-First vs Desktop-First:</strong> Mobile-first design starts with mobile styles
+          and adds complexity for larger screens, while desktop-first does the opposite. Mobile-first is
+          generally recommended for better performance and progressive enhancement.</p>
+      </section>
+
+      <section id="patterns">
+        <h2>Common Responsive Patterns</h2>
+        <div class="decodiv" id="decodiv6">
+          <img src="https://www.svgrepo.com/show/455842/pattern-security.svg" alt="A vector image of a dot grid being connected by one line.">
+        </div>
+
+        <p>Several design patterns have emerged as best practices for responsive layouts:</p>
+        <ul>
+          <li><strong>Column Drop:</strong> Multi-column layouts that stack vertically on smaller
+            screens.</li>
+          <li><strong>Mostly Fluid:</strong> Grid-based layout that becomes more fluid as screen size
+            increases.</li>
+          <li><strong>Layout Shifter:</strong> Most adaptive pattern where layout changes significantly
+            across breakpoints.</li>
+          <li><strong>Off Canvas:</strong> Navigation or secondary content hidden off-screen on mobile,
+            revealed via menu button.</li>
+          <li><strong>Tiny Tweaks:</strong> Small adjustments to font sizes, padding, and spacing rather
+            than major layout changes.</li>
+        </ul>
+        <p>The pattern you choose depends on your content structure and user needs. Navigation patterns,
+          in particular, require careful consideration for mobile usability.</p>
+      </section>
+    </div>
+  </main>
+
+  <footer>
+    <p>&copy; 2024 Responsive Web Design Guide. Learn by building.</p>
+  </footer>
+</body>
+
+<!--
+═══════════════════════════════════════════════
+  FLEXBOX TUTORIAL REFLECTIONS
+═══════════════════════════════════════════════
+
+Part A: HTML Scaffold
+─────────────────────────────────────────────
+Unique ID's make it easy to tell apart certain elements you're implementing into your website. Classes could trip me up, but I am aware that they can be used for several elements, while ID's are only applied to one page specifically.
+
+Part B: Flexbox Layout
+─────────────────────────────────────────────
+Width is more fixed then flex-basis is. If I wanted an element to stay a fixed size, I would just use width. With flex-basis, its more so a starting point of width that works with whatever flexbox layout you're editing.
+
+Part C: Sticky Sidebar
+─────────────────────────────────────────────
+Sticky is what keeps an element within its container as you scroll, while fixed doesn't move as you scroll.
+
+Part D: Anchor Links
+─────────────────────────────────────────────
+If you add a fixed header, you run the risk of it covering over your sections if you're clicking a link per say. Scroll-margin-top can be used to add padding between (at the top of) a section so that your content doesn't get obscured.
+
+Part E: Decorative Icons
+─────────────────────────────────────────────
+Putting the elements behind content to avoid blocking text. For a dark theme I would invert the colors or change to darker contrast.
+
+Part F: Finishing Touches
+─────────────────────────────────────────────
+Smooth scrolling. I hate the immediate jump between sections when clicking on a navigation link, it's jarring and hard to find your place again.
+
+═══════════════════════════════════════════════
+-->

@@ -1,0 +1,14 @@
+/* Week 7 Research and Make styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 1.5rem;
+  background-color: #f7f8ff;
+  color: #222;
+}
+header {
+  margin-bottom: 1.5rem;
+}
+h1 {
+  font-size: 2rem;
+}

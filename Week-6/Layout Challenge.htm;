@@ -1,0 +1,43 @@
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Layout Challenge</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <header class="logo">Cat Captures</header>
+
+  <nav>
+    <ul>
+      <li><a href="#">Home</a></li>
+      <li><a href="#">Blog</a></li>
+      <li><a href="#">Donate</a></li>
+      <li><a href="#">Facts</a></li>
+      <li><a href="#">Contact</a></li>
+    </ul>
+  </nav>
+
+  <main>
+    <article>
+      <h1> This is a Fictional Site Surrounding Wildcat Photography! </h1>
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSoaHdJi_NLOo_U6UsOQetHtZJhqZ_JQ3Rctw&s" alt="feature image" class="feature" />
+      <p>Calling all cat lovers! This website has all the best feline photos you could ask for.</p>
+      <p>Did you know that Siberan Tigers are the world's largest cats, with males weighing up to 700 lbs and stretching 11 feet in length?</p>
+      <p>We spoke with Azul, a representative of the Big Cat Community at the Woodland Park Zoo, who offered this insightful comment: ‘Roawr, grrrrrahhh, mrrroowwmmm, mrrrrr.’ She seems to be very opinionated about the growing endangerment of her species. Rightfully so.</p>
+    </article>
+
+    <aside>
+      <h2>Example Work</h2>
+      <ul class="photos">
+        <li><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTebfxPEfFODtB-FQeC6oonqmliUBkl1Nf4yw&s" alt="" /></li>
+        <li><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSW87QdSXYoJO2QvWcRLj8vQz296GvIJfjSRg&s" alt="" /></li>
+        <li><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTyf3ptBuF_cA4mDxkdBqF2tj7EkUhfBPIvnA&s" alt="" /></li>
+        <li><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRza37bS-n2X5rP6FOAdI1-50qaqwOxxSyCaA&s" alt="" /></li>
+        <li><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQBpAHLqh5aYN_JRvuy3ETwYUXvz8qvMW0KZg&s" alt="" /></li>
+      </ul>
+    </aside>
+  </main>
+</body>
