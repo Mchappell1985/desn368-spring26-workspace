@@ -1,32 +1,23 @@
 body{
     margin:0;
     font-family:Arial, sans-serif;
-
     background-color:#f8edf2;
-
     color:#444;
 }
 
 
 header{
-
     background-color:#d89bb3;
-
     color:white;
-
     text-align:center;
-
     padding:30px;
 
 }
 
 
 nav{
-
     text-align:center;
-
     padding:15px;
-
     background-color:#edd3dd;
 
 }
@@ -34,15 +25,9 @@ nav{
 .card{
 
     width:80%;
-
     margin:20px auto;
-
     padding:20px;
-
     background-color:white;
-
     border:2px solid #e3bfd0;
-
     border-radius:15px;
-
 }
