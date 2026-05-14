@@ -1,44 +1,63 @@
-/* System Font Stack for Readability */
 body {
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
-    line-height: 1.6;
-    color: #333;
-    background-color: #f9f9f9;
-    padding: 20px;
+    margin: 0;
+    font-family: "Nunito", sans-serif;
+    font-weight: 500;
+    background: linear-gradient(
+        180deg,
+        #fff8fb,
+        #ffeef5,
+        #f9d8e6
+    );
+    color: #444;
 }
 
 main {
-    max-width: 800px;
-    margin: 0 auto;
-    background-color: white;
-    padding: 40px;
-    border-radius: 8px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+    padding: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 25px;
 }
 
 h1 {
-    color: #2c3e50;
+    width: 100%;
+    text-align: center;
+    color: #cb6d93;
+    font-family: "Fredoka", sans-serif;
+    font-size: 3rem;
     margin-bottom: 10px;
-    font-size: 2em;
 }
 
-h1 + p {
-    color: #666;
-    font-size: 1.1em;
-    margin-bottom: 30px;
-}
-
-h2 {
-    color: #34495e;
-    border-bottom: 3px solid #3498db;
-    padding-bottom: 10px;
-    margin-top: 30px;
-    margin-bottom: 15px;
-    font-size: 1.5em;
+main p {
+    width: 100%;
+    text-align: center;
+    font-size: 1.1rem;
+    margin-bottom: 40px;
+    color: #777;
 }
 
 section {
-    margin-bottom: 30px;
+    background: white;
+    width: 320px;
+    padding: 20px;
+    border-radius: 25px;
+    border: 3px solid #cb6d93;
+    transition: .3s;
+}
+
+section:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 10px 20px rgba(0,0,0,.12);
+}
+
+h2 {
+    color: #d979a0;
+    font-family: "Fredoka", sans-serif;
+    text-align: center;
+    margin-top: 0;
 }
 
 ul {
@@ -47,30 +66,44 @@ ul {
 }
 
 li {
-    margin: 12px 0;
-    padding: 8px 0;
+    margin: 10px 0;
 }
 
 a {
-    color: #3498db;
+    display: block;
+    background: #fff0f6;
+    padding: 12px;
+    border-radius: 15px;
     text-decoration: none;
-    font-weight: 500;
-    transition: all 0.2s ease;
-    border-bottom: 2px solid transparent;
+    color: #555;
+    transition: .2s;
 }
 
 a:hover {
-    color: #2980b9;
-    border-bottom-color: #3498db;
+    background: #f3bfd2;
+    color: white;
+    transform: translateX(8px);
 }
 
-a:active {
-    color: #1a5f7a;
+footer {
+    width: 100%;
+    text-align: center;
+    padding: 25px;
+    margin-top: 50px;
+    background: #f3bfd2;
+    color: #9b5b78;
 }
 
-.coming-soon {
-    color: #999;
-    font-size: 0.9em;
-    font-style: italic;
-    margin-left: 8px;
+footer p {
+    margin: 0;
+}
+
+@media (max-width:768px) {
+    section {
+        width: 100%;
+    }
+
+    h1 {
+        font-size: 2rem;
+    }
 }
