@@ -14,9 +14,10 @@ body {
 main {
     width: 90%;
     max-width: 1200px;
-    margin: auto;
+    margin: 0 auto;
     padding: 30px;
     display: flex;
+    width: 100%;
     flex-wrap: wrap;
     justify-content: center;
     gap: 25px;
@@ -96,14 +97,5 @@ footer {
 
 footer p {
     margin: 0;
-}
-
-@media (max-width:768px) {
-    section {
-        width: 100%;
-    }
-
-    h1 {
-        font-size: 2rem;
-    }
+    text-align: center;
 }
