@@ -1,4 +1,6 @@
 
+/* background image */
+
 *{margin:0;
     padding:0;
     box-sizing:border-box;}
@@ -16,7 +18,7 @@ body{font-family:'Nunito',sans-serif;
     overflow-x:hidden;}
 
 
-/* ===== Fonts ===== */
+/* Fonts */
 
 h1,h2{font-family:'Galindo',cursive;}
 
@@ -28,7 +30,7 @@ p{margin-bottom:15px;}
 .containerpage{display:flex;
     min-height:100vh;}
 
-/* ===== Sidebar ===== */
+/* Sidebar */
 
 .sidebar{width:240px;
     background:linear-gradient(to bottom,#FEB000,#FF8A00);
@@ -63,12 +65,12 @@ margin-bottom:35px;}
 .sidebar a:hover{background:#FCF2CF;
     transform:translateX(10px);}
 
-/* ===== Main ===== */
+/* Main */
 main{width:100%;
     flex:1;
     margin-left:0;}
 
-/* ===== Hero ===== */
+/* Hero */
 
 .hero{position:relative;
     width:100vw;
@@ -87,7 +89,7 @@ main{width:100%;
 
 .hero-title h1{font-size:2rem;}
 
-/* ===== Paragrphs ===== */
+/* Paragrphs */
 
 .content-section{position:relative;
     max-width:900px;
@@ -103,7 +105,7 @@ main{width:100%;
 
 .content-section li{margin-bottom:15px;}
 
-/* ===== Code Previews ===== */
+/* Code Previews */
 
 pre{background:#FBAF19;
     padding:15px;
@@ -111,18 +113,18 @@ pre{background:#FBAF19;
     border-radius:15px;
     overflow:auto;}
 
-/* ===== Side Images ===== */
+/* Side Images */
 
 .decorative{position:absolute;
-    width:90px;
+    width:120px;
     right:0;
     top:0;}
 
-.palm{width:60px;
+.palm{width:100px;
     top:-10px;
     right:40px;}
 
-/* ===== Footer ===== */
+/* Feeet */
 
 footer{background:#FF8A00;
     padding:40px;
@@ -145,7 +147,7 @@ footer{background:#FF8A00;
 .button:hover{background:#FFC500;
     transform:translateY(-4px);}
 
-/* ===== Small Viewport crap ===== */
+/* Small Viewport crap */
 
 #menu{display:none;}
 

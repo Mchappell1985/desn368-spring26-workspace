@@ -9,7 +9,7 @@
 <link rel="stylesheet" href="field-guide.css">
 
 <!-- Font imports -->
- 
+
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
@@ -89,9 +89,10 @@ and unexpected ways.
 <!-- Viscode 1-->
 
 <pre><code>
-    Island.startAdventure();
-    Mii.makeFriends();
-    Dreams.unlock();
+    &lt;section id="welcome" class="content-section"&gt;
+    &lt;h2&gt;Welcome to the Island!&lt;/h2&gt;
+    &lt;p&gt;Create your dream island adventure.&lt;/p&gt;
+    &lt;/section&gt;
 </code></pre>
 
 <ul>
@@ -121,9 +122,9 @@ As they spend time together, Miis will form friendships, share adventures, and c
 <!-- Viscode 2-->
 
 <pre><code>
-    createMii();
-    setPersonality("Energetic");
-    saveCharacter();
+    &lt;img src="../miirun.png"
+    alt="Running Miis"
+    class="decorative"&gt;
 </code></pre>
 
 <ul>
@@ -153,9 +154,9 @@ Help solve their problems, decorate their homes, and unlock exciting new oppertu
 <!-- Viscode 3 -->
 
 <pre><code>
-    Mii.requestAdvice();
-    Mii.moveIn();
-    relationship.update();
+   .content-section{max-width:900px;
+    padding:40px;
+    scroll-margin-top:100px;}
 </code></pre>
 
 <ul>
@@ -184,8 +185,11 @@ Be sure to check the shops often, you never know what exciting new styles might 
 <!-- Viscode 4-->
 
 <pre><code>
-    shop.buy("Hat");
-    inventory.add(item);
+    &lt;ul&gt;
+    &lt;li&gt;Hat Shop&lt;/li&gt;
+    &lt;li&gt;Import Wear&lt;/li&gt;
+    &lt;li&gt;Interior Store&lt;/li&gt;
+    &lt;/ul&gt;
 </code></pre>
 
 <h3>Popular Island Shops</h3>
@@ -217,8 +221,9 @@ With so many unexpected moments waiting around every corner, island life is alwa
 <!-- Viscode 5-->
 
 <pre><code>
-    dream.play();
-    event.randomize();
+    .sidebar a:hover{
+        background:#FCF2CF;
+        transform:translateX(10px);}
 </code></pre>
 
 </section>
