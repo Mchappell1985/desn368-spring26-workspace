@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sony XM4 Product Landing Page</title>
+    <link rel="stylesheet" href="P4-styles.css">
+  </head>
+  <body>
+    <header id="header">
+      <a class="brand-link" href="#hero" aria-label="Sony XM4 home">
+        <img
+          id="header-img"
+          src="images/sony-logo.svg"
+          alt="Sony wordmark in white uppercase letters"
+        >
+      </a>
+      <nav id="nav-bar" aria-label="Primary navigation">
+        <a class="nav-link" href="#features">Features</a>
+        <a class="nav-link" href="#data">Pricing</a>
+        <a class="nav-link" href="#video">Video</a>
+        <a class="nav-link" href="#contact">Contact</a>
+      </nav>
+    </header>
+
+    <main>
+      <section id="hero" aria-labelledby="hero-heading">
+        <div class="hero-copy">
+          <h1 id="hero-heading">Hear What Matters.</h1>
+          <p>
+            High-Quality noise cancellation, long-lasting battery life, touch
+            controls, and crystal-clear audio.
+          </p>
+          <a class="primary-cta" href="#video">Learn More</a>
+        </div>
+        <div class="hero-media">
+          <img
+            class="hero-image"
+            src="images/sony-xm4-black-hero.png"
+            alt="Large black Sony headphones on warm gradient"
+          >
+        </div>
+      </section>
+
+      <section id="video" aria-labelledby="video-heading">
+        <h2 id="video-heading">Your Next Listening Experience Starts Here</h2>
+        <div class="video-layout">
+          <div class="video-wrapper">
+            <iframe
+              class="video-frame"
+              src="https://www.youtube.com/embed/WKdotkKJQYQ"
+              srcdoc="<style>*{box-sizing:border-box}body{margin:0}a{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;background:#000 url('images/sony-xm4-video-cover.png') center/cover no-repeat;text-decoration:none}a::before{content:'';width:86px;height:86px;border-radius:50%;background:#ff9437;box-shadow:0 8px 24px rgb(0 0 0 / 35%)}span{position:absolute;width:0;height:0;margin-left:8px;border-top:21px solid transparent;border-bottom:21px solid transparent;border-left:32px solid #111}</style><a href='https://www.youtube.com/embed/WKdotkKJQYQ?autoplay=1' aria-label='Play Sony XM4 video'><span></span></a>"
+              title="Sony WH-1000XM4 noise cancelling headphones video"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              allowfullscreen
+            ></iframe>
+          </div>
+          <div class="video-copy">
+            <p>Enjoy powerful sound and seamless listening wherever life takes you.</p>
+            <a class="secondary-cta" href="#contact">Shop Now</a>
+          </div>
+        </div>
+      </section>
+
+      <section id="features" aria-labelledby="features-heading">
+        <div class="proof-grid">
+          <img
+            class="proof-image"
+            src="images/woman-wearing-silver-headphones.png"
+            alt="Woman smiling while wearing silver headphones"
+          >
+          <div class="proof-copy">
+            <h2>Distractions Are Everywhere</h2>
+            <p>
+              Background noise, uncomfortability, and poor sound quality
+              interrupt your focus. Sony XM4 headphones use adaptive noise
+              cancellation and smart listening technology to create an
+              immersive experience.
+            </p>
+            <ul>
+              <li>Industry-leading noise cancellation</li>
+              <li>Adaptive Sound Control</li>
+              <li>Speak-to-Chat technology</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="benefits-grid">
+          <div class="benefits-copy">
+            <h2>Balance Professionalism and Everyday Life</h2>
+            <p>
+              From study sessions and travel to gaming and music, the XM4
+              adapts to your routine with intelligent features and lasting
+              comfort.
+            </p>
+            <ul>
+              <li>30-hour battery life</li>
+              <li>Multi-device connection</li>
+              <li>Lightweight comfort</li>
+            </ul>
+          </div>
+          <img
+            class="benefits-image"
+            src="images/man-wearing-black-headphones.png"
+            alt="Man wearing black headphones in warm light"
+          >
+        </div>
+
+        <div class="feature-products">
+          <h2 id="features-heading">Find Your Sound. Match Your Style.</h2>
+          <div class="feature-card-grid">
+            <article class="feature-card">
+              <img
+                src="images/sony-xm4-midnight-blue.png"
+                alt="Midnight blue Sony headphones facing forward"
+              >
+              <h3>Midnight Blue</h3>
+              <p>Premium, unique, and expressive</p>
+              <a class="card-cta" href="#contact">Shop Now</a>
+            </article>
+
+            <article class="feature-card">
+              <img
+                src="images/sony-xm4-black.png"
+                alt="Black Sony headphones facing forward"
+              >
+              <h3>Black</h3>
+              <p>Minimal, sleek, and professional.</p>
+              <a class="card-cta" href="#contact">Shop Now</a>
+            </article>
+
+            <article class="feature-card">
+              <img
+                src="images/sony-xm4-silver.png"
+                alt="Silver Sony headphones facing forward"
+              >
+              <h3>Silver</h3>
+              <p>Clean, modern, and timeless</p>
+              <a class="card-cta" href="#contact">Shop Now</a>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="data" aria-labelledby="data-heading">
+        <h2 id="data-heading">Engineered for More</h2>
+        <div
+          class="table-scroll"
+          role="region"
+          aria-label="Headphone feature comparison"
+          tabindex="0"
+        >
+          <table id="data-table">
+            <thead>
+              <tr>
+                <th scope="col">Features</th>
+                <th scope="col">Sony XM4</th>
+                <th scope="col">Generic Headphones</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row">Battery Life</th>
+                <td>30 Hours</td>
+                <td>12-15 Hours</td>
+              </tr>
+              <tr>
+                <th scope="row">Noise Cancellation</th>
+                <td>Advanced</td>
+                <td>Basic</td>
+              </tr>
+              <tr>
+                <th scope="row">Multipoint Connection</th>
+                <td>Yes</td>
+                <td>Limited</td>
+              </tr>
+              <tr>
+                <th scope="row">Touch Controls</th>
+                <td>Yes</td>
+                <td>Sometimes</td>
+              </tr>
+              <tr>
+                <th scope="row">Fast Charging</th>
+                <td>Yes</td>
+                <td>Varies</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
+
+      <section id="contact" aria-labelledby="contact-heading">
+        <div class="contact-copy">
+          <h2 id="contact-heading">Contact</h2>
+          <p>Enjoy powerful sound and seamless listening wherever life takes you.</p>
+        </div>
+        <form
+          id="form"
+          action="https://www.freecodecamp.com/email-submit"
+          method="post"
+        >
+          <div class="form-field">
+            <label for="name">Full name</label>
+            <input id="name" name="name" type="text" autocomplete="name" required>
+          </div>
+
+          <div class="form-field">
+            <label for="email">Email address</label>
+            <input
+              id="email"
+              name="email"
+              type="email"
+              autocomplete="email"
+              required
+            >
+          </div>
+
+          <div class="form-field">
+            <label for="message">Listening goals</label>
+            <textarea id="message" name="message" rows="5"></textarea>
+          </div>
+
+          <button id="submit" type="submit">Shop Now</button>
+        </form>
+      </section>
+    </main>
+
+    <footer>
+      <div class="footer-brand">
+        <p>&copy; Mac Chappell</p>
+        <p>&copy; 2023 SONY ELECTRONICS INC. (SEL)</p>
+      </div>
+      <nav aria-label="Footer navigation">
+        <a href="#">Terms &amp; Conditions</a>
+        <a href="#">Website Accessibility</a>
+        <a href="#">Website Terms</a>
+        <a href="#">SEL Privacy Policy</a>
+        <a href="#">CA Privacy Notice</a>
+        <a href="#">Health Data</a>
+        <a href="#">Your Privacy Choices</a>
+      </nav>
+    </footer>
+  </body>
+</html>
