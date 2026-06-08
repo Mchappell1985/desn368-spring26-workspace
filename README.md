@@ -1,4 +1,4 @@
--- Project Description --
+-- Project Description For Landing Page --
 
 This project is a responsive product landing page created for the Sony WH-1000XM4 wireless noise-cancelling headphones. The goal was to design a modern marketing page that highlights the product's key features, benefits, color options, pricing comparison, and promotional video while maintaining accessibility and responsive design principles. The page includes a hero section, feature highlights, product showcase cards, comparison table, embedded promotional video, and footer navigation links.
 
