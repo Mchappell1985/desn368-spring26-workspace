@@ -9,13 +9,12 @@ Reflection Page: [INSERT REFLECTION PAGE LINK]
 Learning Log: [INSERT LEARNING LOG LINK]
 Figma File: [INSERT FIGMA LINK]
 
----
 
-### Design Direction
+# Design Direction
 
 DISCLAIMER: My figma mood board now has uploaded images of a branding final I finished for my VCD class. I decided to disregard the figma mood board I created at the beginning of the quarter and use this branding for my portfolio site to make everything more cohesive.
 
-### Fonts
+# Fonts
 **Cooper Black**
 Used for major headings and display text.
 Chosen for its bold/playful personality, while still remaining professional and maintaining a strong visual presence.
@@ -24,7 +23,7 @@ Chosen for its bold/playful personality, while still remaining professional and 
 Used for body text, navigation, and supporting text.
 Chosen for readability and clean presentation. A good contrast to Cooper Black.
 
-### Color Palette
+# Color Palette
 **Pink**
 HEX: #DD4C6E
 **Mint**
@@ -34,34 +33,32 @@ HEX: #292C2A
 **Cream**
 HEX: #F7F9F0
 
-### Visual Style
+# Visual Style
 The visual direction of this portfolio was inspired by my personal branding project. I wanted the site to feel expressive and creative while still maintaining professionalism and readability. Rounded shapes, bold typography, soft gradients, and colorful accents were used throughout the design to create a friendly a memorable portfolio.
 
 ## Featured Projects
 
-### Recipe
+## Recipe
 A stylized recipe website focused on organization of headers in html, page structure, readability, and responsive design principles.
 
-### Tribute Site
+## Tribute Site
 A tribute page designed to learn hierarchy, layout, accessibility.
 
-### Field Guide
+## Field Guide
 An informational website that demonstrates organization of content, responsive layouts, viewport resizing, and structured navigation.
 
-### Product Landing Page
+## Product Landing Page
 A product-focused landing page featuring responsive layouts, CSS hover states, animations, and visual hierarchy.
 
 
-### Images
-
+# Images
 All personal branding assets, logos, illustrations, and project graphics were created by me unless otherwise noted.
 
-### External Assets
-
+# External Assets
 Personal social media logos and platform trademarks belong to their respective owners.
 Any project screenshots displayed are my own work.
 
-## Tutorials and Resources
+# Tutorials and Resources
 The following resources were used during development:
 - Kevin Powell (YouTube)
 - Traversy Media (YouTube)
@@ -70,10 +67,10 @@ The following resources were used during development:
 
 These resources were used for learning HTML, CSS, responsive layouts, animations, and troubleshooting. I also searched for assistance through HTML and CSS discord communities.
 
-## AI Disclosure
+# AI Disclosure
 Use of Codex was ONLY utilized for the base structure of my product landing page per assignment requirement, it was also used to assist me with finding a few transformation errors within my css for my portfolio site.
 
-## Repository Information
+# Repository Information
 This portfolio was developed using semantic HTML and CSS and includes:
 - Responsive design
 - Flexbox layouts
