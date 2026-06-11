@@ -18,7 +18,7 @@ Figma File: [(https://www.figma.com/design/558xLWgVyfC4ONBhz3rPW3/DESN368-Moodz-
 DISCLAIMER: My figma mood board now has uploaded images of a branding final I finished for my VCD class. I decided to disregard the figma mood board I created at the beginning of the quarter and use this branding for my portfolio site to make everything more cohesive.
 
 # Fonts
-**Cooper Black**
+**Titan One** 
 Used for major headings and display text.
 Chosen for its bold/playful personality, while still remaining professional and maintaining a strong visual presence.
 
