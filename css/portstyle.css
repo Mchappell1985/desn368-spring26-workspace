@@ -1,6 +1,8 @@
 
 /* Font Calls */
 
+@import url('https://fonts.googleapis.com/css2?family=Titan+One&display=swap');
+
 @font-face {font-family: "Cooper Black";
     src: local("Cooper Black"); }
 
@@ -21,7 +23,7 @@
     --blue-light: #D7EEF4;
     --mint-light: #DDF3EC;
     --cream-card: #FFF8EC;
-    --display-font: "Cooper Black", Georgia, serif;
+    --display-font: "Titan One", Georgia, serif;
     --body-font: "Cumin Semibold", "Raleway", Arial, sans-serif;
     --radius-lg: 32px; }
 
