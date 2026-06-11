@@ -4,10 +4,10 @@ My name is Mac Chappell, and I am a Visual Communication Design student at Easte
 
 # Live Portfolio
 
-Portfolio Website: [INSERT GITHUB PAGES LINK]
-Reflection Page: [INSERT REFLECTION PAGE LINK]
-Learning Log: [INSERT LEARNING LOG LINK]
-Figma File: [INSERT FIGMA LINK]
+Portfolio Website: [[INSERT GITHUB PAGES LINK](https://mchappell1985.github.io/desn368-spring26-workspace/)]
+Reflection Page: [[INSERT REFLECTION PAGE LINK](https://mchappell1985.github.io/desn368-spring26-workspace/reflection.html)]
+Learning Log: [[INSERT LEARNING LOG LINK](https://mchappell1985.github.io/desn368-spring26-workspace/learning-log.html)]
+Figma File: [[INSERT FIGMA LINK](https://www.figma.com/design/558xLWgVyfC4ONBhz3rPW3/DESN368-Moodz-Vibe-Mac-s26?node-id=0-1&t=vbaBuMh30Hn4yHrj-1)]
 
 
 # Design Direction
