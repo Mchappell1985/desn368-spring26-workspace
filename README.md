@@ -5,8 +5,11 @@ My name is Mac Chappell, and I am a Visual Communication Design student at Easte
 # Live Portfolio
 
 Portfolio Website: [(https://mchappell1985.github.io/desn368-spring26-workspace/)]
+
 Reflection Page: [(https://mchappell1985.github.io/desn368-spring26-workspace/reflection.html)]
+
 Learning Log: [(https://mchappell1985.github.io/desn368-spring26-workspace/learning-log.html)]
+
 Figma File: [(https://www.figma.com/design/558xLWgVyfC4ONBhz3rPW3/DESN368-Moodz-Vibe-Mac-s26?node-id=0-1&t=vbaBuMh30Hn4yHrj-1)]
 
 
