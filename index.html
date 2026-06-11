@@ -1,54 +1,181 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Mac Chappell | Web Design Portfolio</title>
-  <link rel="stylesheet" href="css/portstyle.css" />
-</head>
-<body>
-  <header class="site-header">
-    <div class="brand">
-      <p class="eyebrow">Web Design Portfolio</p>
-      <h1>Mac Chappell</h1>
-      <p class="tagline">Responsive layouts, accessible pages, and course projects in HTML and CSS.</p>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mac Chappell Portfolio</title>
+    <link rel="stylesheet" href="css/portstyle.css">
+    <link rel="icon" href="images/favicon.png"> </head>
+    
+    <body>
+
+<header class="site-header">
+    <nav class="navbar">
+        <a href="#home" class="logo-link">
+        <img src="images/cmlogo.png" alt="ChadMacc personal brand logo" class="site-logo"> </a>
+
+<ul class="nav-links">
+    <li><a href="#about">About</a></li>
+    <li><a href="#work">Work</a></li>
+    <li><a href="#links">Socials</a></li>
+    <li><a href="reflection.html">Reflection</a></li>
+    <li><a href="learning-log.html">Learning Log</a></li> </ul> </nav> 
+
+</header>
+
+<main>
+
+<section id="home" class="hero">
+    <div class="hero-text">
+        <p class="eyebrow">Design ✦ Illustration ✦ Web Development</p>
+
+        <h1> <span class="name-pink">Mac</span>
+            <span class="name-dark">Chappell</span> </h1>
+
+        <p>Lorem Ipsum dolor sit amet, consectetur adipiscing elit. </p>
+
+        <a href="#work" class="button">View My Work</a> </div>
+
+    <div class="logo-reveal"> 
+        <input type="checkbox" id="reveal-face">
+        <label for="reveal-face" class="flip-card">
+            <span class="flip-inner">
+                <span class="flip-front">
+                    <img src="images/secondary-logo.png" alt="Secondary ChadMacc logo. Click to reveal portrait."> </span>
+                    <span class="flip-back">
+                    <img src="images/me.jpg" alt="Portrait of Mac Chappell"> </span> </span> </label>
     </div>
-    <nav class="site-nav" aria-label="Primary navigation">
-      <a href="learning-log.html">Learning Log</a>
-      <a href="archive/course-log.md">Archive</a>
-      <a href="Week-9/P4-index.html">Featured Project</a>
-    </nav>
-  </header>
 
-  <main class="page-content">
-    <section class="hero">
-      <p class="section-label">Welcome</p>
-      <h2>Designing thoughtful web experiences one project at a time.</h2>
-      <p>This portfolio home page introduces my work, learning log, and recent course projects while using clean, responsive styling.</p>
-      <div class="hero-actions">
-        <a class="button button-primary" href="learning-log.html">Open Learning Log</a>
-        <a class="button button-secondary" href="Week-9/P4-index.html">See Featured Project</a>
-      </div>
-    </section>
+</section>
 
-    <section class="highlights">
-      <article>
-        <h3>Course Work</h3>
-        <p>Explore weekly assignments from HTML fundamentals to layout challenges and responsive design.</p>
-      </article>
-      <article>
-        <h3>Portfolio Homepage</h3>
-        <p>A polished entry point for future employers that highlights design direction and navigation.</p>
-      </article>
-      <article>
-        <h3>Project Archive</h3>
-        <p>Review the archived course log and the work that shaped this portfolio.</p>
-      </article>
-    </section>
-  </main>
+<section id="about" class="about">
+    <div class="section-heading">
+        <p class="eyebrow">About Me</p>
+        <h2>Creative with a lot of heart.</h2> </div>
+        
+        <div class="about-layout">
+            <article class="about-card">
+            <h3>Who I Am</h3>
 
-  <footer class="site-footer">
-    <p>Designed by Mac Chappell ✦</p>
-  </footer>
+            <p>Lorem Ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        </article>
+
+        <article class="about-card">
+            <h3>What I Do</h3>
+
+            <p>Lorem Ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        </article> </div>
+</section>
+
+<section id="work" class="work">
+    <div class="section-heading">
+        <p class="eyebrow">Work</p>
+        <h2>Selected Work</h2>
+    </div>
+
+    <div class="work-tabs">
+        <input type="radio" name="tabs" id="web" checked>
+        <input type="radio" name="tabs" id="illustration">
+        <input type="radio" name="tabs" id="branding">
+
+        <div class="tab-buttons">
+            <label for="web">✦ Web Designs</label>
+            <label for="illustration">✦ Illustration</label>
+            <label for="branding">✦ Branding</label>
+        </div>
+
+        <div class="tab-content web-gallery">
+            <article class="project-card">
+                <img src="images/recipesite.png" alt="Screenshot of Recipe website">
+                <div class="project-info">
+                    <h3>Recipe</h3>
+                    <p>A recipe website focused on readable layout, structure, and clean styling.</p>
+                    <a href="https://mchappell1985.github.io/desn368-spring26-workspace/Week-4/recipe-in-style/recipe-styled.html">View Project</a>
+                </div>
+            </article>
+
+            <article class="project-card">
+                <img src="images/tribute.png" alt="Screenshot of Tribute Site project">
+                <div class="project-info">
+                    <h3>Tribute Site</h3>
+                    <p>A tribute page exploring content hierarchy, visual tone, and accessible structure.</p>
+                    <a href="https://mchappell1985.github.io/desn368-spring26-workspace/Week-5/tribute.html">View Project</a>
+                </div>
+            </article>
+
+            <article class="project-card">
+                <img src="images/fieldguide.png" alt="Screenshot of Field Guide website">
+                <div class="project-info">
+                    <h3>Field Guide</h3>
+                    <p>An informational web page designed around organization and responsive sections.</p>
+                    <a href="https://mchappell1985.github.io/desn368-spring26-workspace/Week-7/field-guide.html">View Project</a>
+                </div>
+            </article>
+
+            <article class="project-card">
+                <img src="images/planding.png" alt="Screenshot of Product Landing Page">
+                <div class="project-info">
+                    <h3>Product Landing Page</h3>
+                    <p>A product-focused landing page using layout, hover states, and CSS styling.</p>
+                    <a href="https://mchappell1985.github.io/desn368-spring26-workspace/Week-9/P4-index.html">View Project</a>
+                </div>
+            </article>
+        </div>
+
+        <div class="tab-content illustration-gallery">
+            <article class="project-card poster-card">
+                <img src="images/illustration.jpg" alt="Example of Mac Chappell illustration work">
+
+                <div class="project-info">
+                    <h3>Illustration</h3>
+                    <p>Lorem Ipsum dolor sit amet, consectetur adipiscing elit.</p> </div>
+            </article>
+        </div>
+
+        <div class="tab-content branding-gallery">
+            <article class="project-card poster-card">
+                <img src="images/phantomstrings.png" alt="Phantom Strings Orchestra branding project poster">
+
+                <div class="project-info">
+                    <h3>Phantom Strings Orchestra</h3>
+                    <p>Lorem Ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                </div>
+            </article>
+
+            <article class="project-card poster-card">
+                <img src="images/pocketpalz.png" alt="Pocket Palz branding project poster">
+
+                <div class="project-info">
+                    <h3>Pocket Palz</h3>
+                    <p>Lorem Ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                </div>
+            </article>
+        </div>
+    </div>
+</section>
+
+<section id="links" class="links">
+    <div class="section-heading">
+        <h2>✦ Socials ✦</h2>
+    </div>
+
+    <div class="social-links">
+        <a href="https://artfight.net/~chadmacc" target="_blank">✦ ArtFight</a>
+        <a href="https://www.instagram.com/menacingmilk/" target="_blank">✦ Instagram</a>
+        <a href="https://www.linkedin.com/in/mac-chappell-b90b662b0?utm_source=share_via&utm_content=profile&utm_medium=member_ios" target="_blank">✦ LinkedIn</a>
+    </div>
+</section>
+
+</main>
+
+<footer>
+    <div class="footer-line"></div>
+
+    <p>© 2026 Mac Chappell</p>
+
+    <p>YouTube tutorials by Kevin Powell and Traversy Media assisted with learning select CSS animations. <br>
+        Codex was utilized to solve image transformation errors. </p>
+</footer>
+
 </body>
 </html>
