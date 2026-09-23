@@ -1,165 +1,471 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <title>Mac Chappell Portfolio</title>
+
     <link rel="stylesheet" href="css/portstyle.css">
-    <link rel="icon" href="images/favicon.png"> </head>
-    
-    <body>
+    <link rel="icon" href="images/favicon.png">
+</head>
+
+<body>
 
 <header class="site-header">
-    <nav class="navbar">
-        <a href="#home" class="logo-link">
-        <img src="images/cmlogo.png" alt="ChadMacc personal brand logo" class="site-logo"> </a>
 
-<ul class="nav-links">
-    <li><a href="#about">About</a></li>
-    <li><a href="#work">Work</a></li>
-    <li><a href="#links">Socials</a></li>
+    <nav class="navbar">
+
+        <a href="#home" class="logo-link">
+            <img
+                src="images/cmlogo.png"
+                alt="ChadMacc personal brand logo"
+                class="site-logo"
+            >
+        </a>
+
+        <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#work">Work</a></li>
+            <li><a href="#links">Socials</a></li>
+        </ul>
+
+    </nav>
 
 </header>
 
+
 <main>
 
-<section id="home" class="hero">
-    <div class="hero-text">
-        <p class="eyebrow">Design ✦ Illustration ✦ Web Development</p>
+    <!-- HERO -->
 
-        <h1> <span class="name-pink">Mac</span>
-            <span class="name-dark">Chappell</span> </h1>
+    <section id="home" class="hero">
 
-        <p>I create brands, websites, and illustrations. Whether I am designing a visual identity or building a digital experience, I aim to create work that feels expressive, engaging, and unique. </p>
+        <div class="hero-text">
 
-        <a href="#work" class="button">View My Work</a> </div>
+            <p class="eyebrow">
+                Design ✦ Illustration ✦ Web Development
+            </p>
 
-    <div class="logo-reveal"> 
-        <input type="checkbox" id="reveal-face">
-        <label for="reveal-face" class="flip-card">
-            <span class="flip-inner">
-                <span class="flip-front">
-                    <img src="images/secondary-logo.png" alt="Secondary ChadMacc logo. Click to reveal portrait."> </span>
+            <h1>
+                <span class="name-pink">Mac</span>
+                <span class="name-dark">Chappell</span>
+            </h1>
+
+            <p>
+                I create brands, websites, and illustrations. Whether I am
+                designing a visual identity or building a digital experience,
+                I aim to create work that feels expressive, engaging, and unique.
+            </p>
+
+            <a href="#work" class="button">
+                View My Work
+            </a>
+
+        </div>
+
+
+        <div class="logo-reveal">
+
+            <input
+                type="checkbox"
+                id="reveal-face"
+            >
+
+            <label
+                for="reveal-face"
+                class="flip-card"
+            >
+
+                <span class="flip-inner">
+
+                    <span class="flip-front">
+                        <img
+                            src="images/secondary-logo.png"
+                            alt="Secondary ChadMacc logo. Click to reveal portrait."
+                        >
+                    </span>
+
                     <span class="flip-back">
-                    <img src="images/me.jpg" alt="Portrait of Mac Chappell"> </span> </span> </label>
-    </div>
+                        <img
+                            src="images/me.jpg"
+                            alt="Portrait of Mac Chappell"
+                        >
+                    </span>
 
-</section>
+                </span>
 
-<section id="about" class="about">
-    <div class="section-heading">
-        <p class="eyebrow">About Me</p>
-        <h2>Designing with Purpose</h2> </div>
-        
+            </label>
+
+        </div>
+
+    </section>
+
+
+    <!-- ABOUT -->
+
+    <section id="about" class="about">
+
+        <div class="section-heading">
+
+            <p class="eyebrow">
+                About Me
+            </p>
+
+            <h2>
+                Designing with Purpose
+            </h2>
+
+        </div>
+
+
         <div class="about-layout">
+
             <article class="about-card">
-            <h3> ✦ Who I Am ✦ </h3>
 
-            <p>I am a Visual Communication Design student at Eastern Washington University pursuing a Bachelor's degree with a minor in Animation and Motion Design. 
-                My creative background combines graphic design, illustration, web development, and  visual storytelling. I approach projects from both a visual and strategic perspective. 
-                Through my coursework and personal projects, I have developed skills in design systems, digital illustration, front-end web design, and creative problem solving.
-                 I enjoy creating work that is both visually engaging and purposeful, with a focus on clear communication and memorable experiences for your brand.</p>
-        </article>
+                <h3>
+                    ✦ Who I Am ✦
+                </h3>
 
-        <article class="about-card">
-            <h3> ✦ What I Do ✦ </h3>
+                <p>
+                    I am a Visual Communication Design student at Eastern Washington
+                    University pursuing a Bachelor's degree with a minor in Animation
+                    and Motion Design. My creative background combines graphic design,
+                    illustration, web development, and visual storytelling. I approach
+                    projects from both a visual and strategic perspective. Through my
+                    coursework and personal projects, I have developed skills in design
+                    systems, digital illustration, front-end web design, and creative
+                    problem solving. I enjoy creating work that is both visually engaging
+                    and purposeful, with a focus on clear communication and memorable
+                    experiences for your brand.
+                </p>
 
-            <p>I specialize in visual communication design, illustration, branding, and front-end web design. 
-                Much of my creative work revolves around character design and storytelling, where I develop original characters, worlds, and visual narratives that tackle complex themes. 
-                These projects have strengthened my skills in design thinking, audience engagement, and creative problem solving.
-                Whether I am building a website, developing a brand identity, or illustrating a character, I aim to create work that feels expressive, thoughtful, and authentic while maintaining strong design fundamentals.</p>
-        </article> </div>
-</section>
+            </article>
 
-<section id="work" class="work">
-    <div class="section-heading">
-        <p class="eyebrow">Work</p>
-        <h2>Selected Work</h2>
-    </div>
 
-    <div class="work-tabs">
-        <input type="radio" name="tabs" id="web" checked>
-        <input type="radio" name="tabs" id="illustration">
-        <input type="radio" name="tabs" id="branding">
+            <article class="about-card">
 
-        <div class="tab-buttons">
-            <label for="web">✦ Web Designs</label>
-            <label for="illustration">✦ Illustration</label>
-            <label for="branding">✦ Branding</label>
+                <h3>
+                    ✦ What I Do ✦
+                </h3>
+
+                <p>
+                    I specialize in visual communication design, illustration, branding,
+                    and front-end web design. Much of my creative work revolves around
+                    character design and storytelling, where I develop original characters,
+                    worlds, and visual narratives that tackle complex themes. These projects
+                    have strengthened my skills in design thinking, audience engagement,
+                    and creative problem solving. Whether I am building a website,
+                    developing a brand identity, or illustrating a character, I aim to
+                    create work that feels expressive, thoughtful, and authentic while
+                    maintaining strong design fundamentals.
+                </p>
+
+            </article>
+
         </div>
 
-        <div class="tab-content web-gallery">
+    </section>
 
-            <article class="project-card">
-                <img src="images/fieldguide.png" alt="Screenshot of Field Guide website">
-                <div class="project-info">
-                    <h3>Field Guide</h3>
-                    <p>An informational web page on the nintendo game: "Tomodachi Life: Living the Dream". Designed around organization and responsive practice.</p>
-                    <a href="https://mchappell1985.github.io/desn368-spring26-workspace/Week-7/field-guide.html">View Project</a>
-                </div>
-            </article>
 
-            <article class="project-card">
-                <img src="images/planding.png" alt="Screenshot of Product Landing Page">
-                <div class="project-info">
-                    <h3>Product Landing Page</h3>
-                    <p>A product-focused landing page based off of Sony's XM4 Headphones. Utilizing layout, hover states, and CSS styling.</p>
-                    <a href="#">View Project</a>
-                </div>
-            </article>
+    <!-- WORK -->
+
+    <section id="work" class="work">
+
+        <div class="section-heading">
+
+            <p class="eyebrow">
+                Work
+            </p>
+
+            <h2>
+                Selected Work
+            </h2>
+
         </div>
 
-        <div class="tab-content illustration-gallery">
-            <article class="project-card poster-card">
-                <img src="images/illustration.jpg" alt="Example of Mac Chappell illustration work">
 
-                <div class="project-info">
-                    <h3>Illustration</h3>
-                    <p>An Illustration recreation project done entirely in Adobe Illustrator. Based off the Daniel Warren Johnson Transformers comic book cover. </p> </div>
-            </article>
+        <div class="work-tabs">
+
+            <input
+                type="radio"
+                name="tabs"
+                id="web"
+                checked
+            >
+
+            <input
+                type="radio"
+                name="tabs"
+                id="illustration"
+            >
+
+            <input
+                type="radio"
+                name="tabs"
+                id="branding"
+            >
+
+
+            <div class="tab-buttons">
+
+                <label for="web">
+                    ✦ Web Designs
+                </label>
+
+                <label for="illustration">
+                    ✦ Illustration
+                </label>
+
+                <label for="branding">
+                    ✦ Branding
+                </label>
+
+            </div>
+
+
+            <!-- WEB DESIGN PROJECTS -->
+
+            <div class="tab-content web-gallery">
+
+                <!-- WHWF -->
+
+                <article class="project-card">
+
+                    <img
+                        src="images/whwf.png"
+                        alt="Women Helping Women Fund Spokane website redesign"
+                    >
+
+                    <div class="project-info">
+
+                        <h3>
+                            Women Helping Women Fund Spokane
+                        </h3>
+
+                        <p>
+                            An ongoing redesign and development project for Women Helping
+                            Women Fund Spokane. The project includes a refreshed visual
+                            experience, responsive page layouts, WordPress development,
+                            donation integration, and an updated content system designed
+                            to be easily maintained by the organization.
+                        </p>
+
+                        <span class="project-status">
+                            ✦ Currently In Development
+                        </span>
+
+                    </div>
+
+                </article>
+
+
+                <!-- FIELD GUIDE -->
+
+                <article class="project-card">
+
+                    <img
+                        src="images/fieldguide.png"
+                        alt="Screenshot of Field Guide website"
+                    >
+
+                    <div class="project-info">
+
+                        <h3>
+                            Field Guide
+                        </h3>
+
+                        <p>
+                            An informational web page based on the Nintendo game
+                            "Tomodachi Life: Living the Dream," designed around
+                            organization and responsive design practice.
+                        </p>
+
+                        <a
+                            href="https://mchappell1985.github.io/desn368-spring26-workspace/Week-7/field-guide.html"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                            View Project
+                        </a>
+
+                    </div>
+
+                </article>
+
+
+                <!-- PRODUCT LANDING PAGE -->
+
+                <article class="project-card">
+
+                    <img
+                        src="images/planding.png"
+                        alt="Screenshot of Sony XM4 Product Landing Page"
+                    >
+
+                    <div class="project-info">
+
+                        <h3>
+                            Product Landing Page
+                        </h3>
+
+                        <p>
+                            A product-focused landing page inspired by Sony's WH-1000XM4
+                            headphones, utilizing responsive layout techniques, hover
+                            states, and custom CSS styling.
+                        </p>
+
+                        <a
+                            href="Week-9/P4-index.html"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                            View Project
+                        </a>
+
+                    </div>
+
+                </article>
+
+            </div>
+
+
+            <!-- ILLUSTRATION PROJECTS -->
+
+            <div class="tab-content illustration-gallery">
+
+                <article class="project-card poster-card">
+
+                    <img
+                        src="images/illustration.jpg"
+                        alt="Example of Mac Chappell illustration work"
+                    >
+
+                    <div class="project-info">
+
+                        <h3>
+                            Illustration
+                        </h3>
+
+                        <p>
+                            An illustration recreation project completed entirely in
+                            Adobe Illustrator, based on a Daniel Warren Johnson
+                            Transformers comic book cover.
+                        </p>
+
+                    </div>
+
+                </article>
+
+            </div>
+
+
+            <!-- BRANDING PROJECTS -->
+
+            <div class="tab-content branding-gallery">
+
+                <article class="project-card poster-card">
+
+                    <img
+                        src="images/phantomstrings.png"
+                        alt="Phantom Strings Orchestra branding project poster"
+                    >
+
+                    <div class="project-info">
+
+                        <h3>
+                            Phantom Strings Orchestra
+                        </h3>
+
+                        <p>
+                            A randomized client branding project based around the
+                            criteria of a fictional gothic musical ensemble.
+                        </p>
+
+                    </div>
+
+                </article>
+
+
+                <article class="project-card poster-card">
+
+                    <img
+                        src="images/pocketpalz.png"
+                        alt="Pocket Palz branding project poster"
+                    >
+
+                    <div class="project-info">
+
+                        <h3>
+                            Pocket Palz
+                        </h3>
+
+                        <p>
+                            A randomized client branding project based around the
+                            criteria of a fictional children's toy brand, featuring
+                            cute collectible characters and bright concept designs.
+                        </p>
+
+                    </div>
+
+                </article>
+
+            </div>
+
         </div>
 
-        <div class="tab-content branding-gallery">
-            <article class="project-card poster-card">
-                <img src="images/phantomstrings.png" alt="Phantom Strings Orchestra branding project poster">
+    </section>
 
-                <div class="project-info">
-                    <h3>Phantom Strings Orchestra</h3>
-                    <p>A randomzied clientelle branding project. Based around the critera of a fictional gothic ensemble.</p>
-                </div>
-            </article>
 
-            <article class="project-card poster-card">
-                <img src="images/pocketpalz.png" alt="Pocket Palz branding project poster">
+    <!-- SOCIALS -->
 
-                <div class="project-info">
-                    <h3>Pocket Palz</h3>
-                    <p>A randomzied clientelle branding project. Based around the critera of a fictional childrens toy brand. Featuring cute collectible toys, and bright concept designs.</p>
-                </div>
-            </article>
+    <section id="links" class="links">
+
+        <div class="section-heading">
+
+            <h2>
+                ✦ Socials ✦
+            </h2>
+
         </div>
-    </div>
-</section>
 
-<section id="links" class="links">
-    <div class="section-heading">
-        <h2>✦ Socials ✦</h2>
-    </div>
 
-    <div class="social-links">
-        <a href="https://artfight.net/~chadmacc" target="_blank">✦ ArtFight</a>
-        <a href="https://www.instagram.com/menacingmilk/" target="_blank">✦ Instagram</a>
-        <a href="https://www.linkedin.com/in/mac-chappell-b90b662b0?utm_source=share_via&utm_content=profile&utm_medium=member_ios" target="_blank">✦ LinkedIn</a>
-    </div>
-</section>
+        <div class="social-links">
+
+            <a
+                href="https://www.instagram.com/menacingmilk/"
+                target="_blank"
+                rel="noopener noreferrer"
+            >
+                ✦ Instagram
+            </a>
+
+            <a
+                href="https://www.linkedin.com/in/mac-chappell-b90b662b0?utm_source=share_via&utm_content=profile&utm_medium=member_ios"
+                target="_blank"
+                rel="noopener noreferrer"
+            >
+                ✦ LinkedIn
+            </a>
+
+        </div>
+
+    </section>
 
 </main>
 
+
 <footer>
+
     <div class="footer-line"></div>
 
-    <p>© 2026 Mac Chappell</p>
+    <p>
+        © 2026 Mac Chappell
+    </p>
+
 </footer>
 
 </body>
+
 </html>
